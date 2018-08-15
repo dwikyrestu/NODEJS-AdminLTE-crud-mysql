@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@fontawesome/fontawesome-free' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ '@fontawesome/fontawesome-free', null ]
+6 verbose cache add name=undefined spec="@fontawesome/fontawesome-free" args=["@fontawesome/fontawesome-free",null]
+7 verbose parsed url Url {
+7 verbose parsed url   protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '@fontawesome/fontawesome-free',
+7 verbose parsed url   path: '@fontawesome/fontawesome-free',
+7 verbose parsed url   href: '@fontawesome/fontawesome-free' }
+8 verbose cache add name="" spec="fontawesome/fontawesome-free" args=["","fontawesome/fontawesome-free"]
+9 verbose parsed url Url {
+9 verbose parsed url   protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'fontawesome/fontawesome-free',
+9 verbose parsed url   path: 'fontawesome/fontawesome-free',
+9 verbose parsed url   href: 'fontawesome/fontawesome-free' }
+10 silly lockFile c1bd32b9-fontawesome-fontawesome-free fontawesome/fontawesome-free
+11 verbose lock fontawesome/fontawesome-free /root/.npm/c1bd32b9-fontawesome-fontawesome-free.lock
+12 info maybeGithub Attempting fontawesome/fontawesome-free from git://github.com/fontawesome/fontawesome-free
+13 silly lockFile cef2f8f9-com-fontawesome-fontawesome-free git://github.com/fontawesome/fontawesome-free
+14 verbose lock git://github.com/fontawesome/fontawesome-free /root/.npm/cef2f8f9-com-fontawesome-fontawesome-free.lock
+15 verbose addRemoteGit [ 'git://github.com/fontawesome/fontawesome-free', 'master' ]
+16 verbose git clone git://github.com/fontawesome/fontawesome-free Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-fontawesome-fontawesome-free-cef2f8f9'...
+16 verbose git clone git://github.com/fontawesome/fontawesome-free fatal: remote error:
+16 verbose git clone git://github.com/fontawesome/fontawesome-free   Repository not found.
+17 silly lockFile cef2f8f9-com-fontawesome-fontawesome-free git://github.com/fontawesome/fontawesome-free
+18 silly lockFile cef2f8f9-com-fontawesome-fontawesome-free git://github.com/fontawesome/fontawesome-free
+19 info maybeGithub Attempting fontawesome/fontawesome-free from git+ssh://git@github.com:fontawesome/fontawesome-free
+20 silly lockFile b71bd97e-com-fontawesome-fontawesome-free git@github.com:fontawesome/fontawesome-free
+21 verbose lock git@github.com:fontawesome/fontawesome-free /root/.npm/b71bd97e-com-fontawesome-fontawesome-free.lock
+22 verbose addRemoteGit [ 'git@github.com:fontawesome/fontawesome-free', 'master' ]
+23 error git clone git@github.com:fontawesome/fontawesome-free Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-fontawesome-fontawesome-free-b71bd97e'...
+23 error git clone git@github.com:fontawesome/fontawesome-free Warning: Permanently added 'github.com,52.74.223.119' (RSA) to the list of known hosts.
+23 error git clone git@github.com:fontawesome/fontawesome-free Permission denied (publickey).
+23 error git clone git@github.com:fontawesome/fontawesome-free fatal: Could not read from remote repository.
+23 error git clone git@github.com:fontawesome/fontawesome-free
+23 error git clone git@github.com:fontawesome/fontawesome-free Please make sure you have the correct access rights
+23 error git clone git@github.com:fontawesome/fontawesome-free and the repository exists.
+24 silly lockFile b71bd97e-com-fontawesome-fontawesome-free git@github.com:fontawesome/fontawesome-free
+25 silly lockFile b71bd97e-com-fontawesome-fontawesome-free git@github.com:fontawesome/fontawesome-free
+26 silly lockFile c1bd32b9-fontawesome-fontawesome-free fontawesome/fontawesome-free
+27 silly lockFile c1bd32b9-fontawesome-fontawesome-free fontawesome/fontawesome-free
+28 error addLocal Could not install fontawesome/fontawesome-free
+29 error Error: ENOENT: no such file or directory, stat 'fontawesome/fontawesome-free'
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Linux 4.14.50-v7+
+32 error command "/usr/bin/node" "/usr/bin/npm" "install" "@fontawesome/fontawesome-free"
+33 error cwd /var/www/html/expressproject/expressproject/public
+34 error node -v v8.11.1
+35 error npm -v 1.4.21
+36 error path fontawesome/fontawesome-free
+37 error syscall stat
+38 error code ENOENT
+39 error errno -2
+40 verbose exit [ -2, true ]
